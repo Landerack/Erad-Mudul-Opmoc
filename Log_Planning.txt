@@ -1,15 +1,18 @@
 Scene setup (base pretty stuff)
 Collision between character and world.
-
 Player movement base. (shift is not a nice toggle key..)
+Player art animation sketch.
 
+
+Player animation Sketch code
 ------------Done Marker-------------------------
-Player art animation sketch. - stand, walk run.
-code that the soul looses hp when walking and running, and regenerates when standing still.
+
 body HP bar + interactable that is looses hp when in a 'damage collider'
-Create a basic little flame particle.
+code that the soul looses hp when walking and running, and regenerates when standing still.
+
 Create a base menu (nothing fancy yet)
 Add some sounds
+Death Animation?
 
 -------------------------stage 2--------------------------------
 
