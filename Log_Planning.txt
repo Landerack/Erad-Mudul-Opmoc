@@ -7,11 +7,12 @@ Player animation Sketch code
 body HP bar + interactable that is looses hp
 code that the soul looses hp when walking and running, and regenerates when standing still.
 Create a base menu (nothing fancy yet)
+Add some sounds (added atmosphere)
 
 ------------Done Marker-------------------------
 
 
-Add some sounds
+
 Death Animation?
 
 -------------------------stage 2--------------------------------
