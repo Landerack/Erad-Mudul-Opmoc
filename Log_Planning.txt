@@ -3,13 +3,11 @@ Collision between character and world.
 Player movement base. (shift is not a nice toggle key..)
 Player art animation sketch.
 
-
 Player animation Sketch code
-------------Done Marker-------------------------
-
 body HP bar + interactable that is looses hp
 code that the soul looses hp when walking and running, and regenerates when standing still.
 
+------------Done Marker-------------------------
 Create a base menu (nothing fancy yet)
 Add some sounds
 Death Animation?
