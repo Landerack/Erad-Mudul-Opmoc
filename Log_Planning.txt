@@ -1,0 +1,28 @@
+Scene setup (base pretty stuff)
+Collision between character and world.
+
+Player movement base. (shift is not a nice toggle key..)
+
+------------Done Marker-------------------------
+Player art animation sketch. - stand, walk run.
+code that the soul looses hp when walking and running, and regenerates when standing still.
+body HP bar + interactable that is looses hp when in a 'damage collider'
+Create a basic little flame particle.
+Create a base menu (nothing fancy yet)
+Add some sounds
+
+-------------------------stage 2--------------------------------
+
+Art time. go nuts with making threats etc that work with the damage collider.
+Implement the art programmin wise.
+
+Playtest.
+See if a jump is needed for gameplay
+
+Create more scenery pretty stuff.
+Make the animation for real - add a jump if needed.
+
+Create a flame particle that reduces in intensity according to the soul HP
+
+-------------------------Stage 3---------------------------------
+Art walhalla + record voice stuff

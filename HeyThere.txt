@@ -25,7 +25,9 @@ Entry 5: player world collision.
 I felt my feet on the cold cobblestone today. I feel box like. almost as if I am a placeholder.. What is this place?
 ------------------------------------------------------------------------------
 
+Entry 6: player Movement with Placeholder.
 
+I stepped forward, why do I feel nothing? I seem so unlike myself.. 
 
 
 ------------------------------------------------------------------------------
