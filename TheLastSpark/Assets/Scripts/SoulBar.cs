@@ -27,7 +27,7 @@ public class SoulBar : MonoBehaviour
     {
         if ((Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D))) {
             if (controller.GetComponent<PlayerMovement>().run == false) { // for some reason the true and false are reversed? but that's how they work. no time to fix
-                DecreaseHealth(3*incomeDmg*Time.deltaTime);
+                DecreaseHealth(5*incomeDmg*Time.deltaTime);
             }
             else if (controller.GetComponent<PlayerMovement>().run == true)// for some reason the true and false are reversed? but that's how they work. no time to fix
             {
@@ -36,7 +36,7 @@ public class SoulBar : MonoBehaviour
         }
         else
         {
-            IncreaseHealth(3 * incomeDmg * Time.deltaTime);
+            IncreaseHealth(5 * incomeDmg * Time.deltaTime);
         }
 
 

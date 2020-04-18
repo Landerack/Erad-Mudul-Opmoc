@@ -6,15 +6,18 @@ Player art animation sketch.
 Player animation Sketch code
 body HP bar + interactable that is looses hp
 code that the soul looses hp when walking and running, and regenerates when standing still.
+Create a base menu (nothing fancy yet)
 
 ------------Done Marker-------------------------
-Create a base menu (nothing fancy yet)
+
+
 Add some sounds
 Death Animation?
 
 -------------------------stage 2--------------------------------
 
 Art time. go nuts with making threats etc that work with the damage collider.
+
 Implement the art programmin wise.
 
 Making things feel nice -
