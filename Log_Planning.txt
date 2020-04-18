@@ -19,13 +19,13 @@ Death Animation?
 Art time. go nuts with making threats etc that work with the damage collider.
 Implement the art programmin wise.
 
-Making things feel nice
+Making things feel nice -
 
 Playtest.
 See if a jump is needed for gameplay
 
 Create more scenery pretty stuff.
-Make the animation for real - add a jump if needed.
+Make the animation for real - add a jump if needed. 
 
 Create a flame particle that reduces in intensity according to the soul HP
 
