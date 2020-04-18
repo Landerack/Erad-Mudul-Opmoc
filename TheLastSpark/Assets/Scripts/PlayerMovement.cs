@@ -23,7 +23,8 @@ public class PlayerMovement : MonoBehaviour {
 		{
 			animator.SetBool("Moving", true);
 		}
-		else {
+		else if (horizontalMove == 0)
+		{
 			animator.SetBool("Moving", false);
 		}
 

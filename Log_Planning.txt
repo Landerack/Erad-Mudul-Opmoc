@@ -19,6 +19,8 @@ Death Animation?
 Art time. go nuts with making threats etc that work with the damage collider.
 Implement the art programmin wise.
 
+Making things feel nice
+
 Playtest.
 See if a jump is needed for gameplay
 

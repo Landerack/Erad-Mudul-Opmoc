@@ -5974,7 +5974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454741400}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.19, y: 0.76, z: 13}
+  m_LocalPosition: {x: -9.06, y: 0.64, z: 13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638476341}
@@ -6984,7 +6984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 776554241}
   animator: {fileID: 776554244}
-  runSpeed: 30
+  runSpeed: 50
 --- !u!58 &776554238
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6998,9 +6998,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.13673282}
+  m_Offset: {x: 0, y: -0.13118929}
   serializedVersion: 2
-  m_Radius: 0.3617839
+  m_Radius: 0.35624033
 --- !u!61 &776554239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7063,7 +7063,7 @@ MonoBehaviour:
   m_JumpForce: 400
   m_CrouchSpeed: 0.4
   m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 567
@@ -7128,7 +7128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776554236}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.67, y: 4.92, z: 0}
+  m_LocalPosition: {x: -22.86, y: 6.3, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 1638315869}
