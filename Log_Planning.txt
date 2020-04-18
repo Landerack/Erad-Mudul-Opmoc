@@ -7,7 +7,7 @@ Player art animation sketch.
 Player animation Sketch code
 ------------Done Marker-------------------------
 
-body HP bar + interactable that is looses hp when in a 'damage collider'
+body HP bar + interactable that is looses hp
 code that the soul looses hp when walking and running, and regenerates when standing still.
 
 Create a base menu (nothing fancy yet)
@@ -24,10 +24,13 @@ Making things feel nice -
 Playtest.
 See if a jump is needed for gameplay
 
+-------------------------Stage 3---------------------------------
+
 Create more scenery pretty stuff.
+
 Make the animation for real - add a jump if needed. 
 
-Create a flame particle that reduces in intensity according to the soul HP
 
--------------------------Stage 3---------------------------------
 Art walhalla + record voice stuff
+
+Create a flame particle that reduces in intensity according to the soul HP
