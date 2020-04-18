@@ -8,3 +8,5 @@ Entry 2:
 
 The power. the 2d pipeline renderer. Only once every 100 years can a unity user experience such immense fire.
 
+Entry 3:
+Pfew. first hurdle overcome. turns out I had the wrong material on a sprite. But luckily it's getting there~ Took a bit, but things are looking pretty.
