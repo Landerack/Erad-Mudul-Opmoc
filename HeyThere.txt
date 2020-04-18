@@ -1,16 +1,44 @@
-Hi, this is the dev~
-
-entry 1:
+Hi, this is the dev log~
+------------------------------------------------------------------------------
+entry 1: Form the world
 
 Great start here, Decided to just do a little bit of scene dressing. yknow basic shapes and all that. Looking pretty nice. Will soon be able to animate a character, a particle and wup~ some walking. then make sure that flame doesnt die (or does. yknow)
+------------------------------------------------------------------------------
 
-Entry 2:
+Entry 2: Pipeline setup
 
 The power. the 2d pipeline renderer. Only once every 100 years can a unity user experience such immense fire.
+------------------------------------------------------------------------------
 
-Entry 3:
+Entry 3: Fix_Rendering+VolumeSetup
+
 Pfew. first hurdle overcome. turns out I had the wrong material on a sprite. But luckily it's getting there~ Took a bit, but things are looking pretty.
+------------------------------------------------------------------------------
 
-Entry 4:
+Entry 4: Particles.
+
 The little lights. Ever do their hearts beat~ before they are snuffed out!
-	Particles and just general fixes.
+------------------------------------------------------------------------------
+
+Entry 5: player world collision.
+
+I felt my feet on the cold cobblestone today. I feel box like. almost as if I am a placeholder.. What is this place?
+------------------------------------------------------------------------------
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
