@@ -1,0 +1,5 @@
+Hi, this is the dev~
+
+entry 1:
+
+Great start here, Decided to just do a little bit of scene dressing. yknow basic shapes and all that. Looking pretty nice. Will soon be able to animate a character, a particle and wup~ some walking. then make sure that flame doesnt die (or does. yknow)
