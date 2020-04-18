@@ -6,12 +6,14 @@ public class PlayerMovement : MonoBehaviour {
 
 	public CharacterController2D controller;
 	public Animator animator;
+	public Canvas health;
+	public Canvas soul;
 
 	public float runSpeed = 40f;
 
 	float horizontalMove = 0f;
 	bool jump = false;
-	bool run = true;
+	public bool run = true;
 
 	// Update is called once per frame
 	void Update()
