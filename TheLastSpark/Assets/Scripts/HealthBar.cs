@@ -14,7 +14,7 @@ public class HealthBar : MonoBehaviour
     public Image healthBarImage = null;
     private float whiteFlashTimer = 0.01f;
     public float damageTimer = 0.0f;
-    public float Imunity = 2.0f;
+    public float Imunity = 1.0f;
     public GameObject deathManager;
 
     public float incomeDmg = 10.0f;

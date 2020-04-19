@@ -9,15 +9,15 @@ code that the soul looses hp when walking and running, and regenerates when stan
 Create a base menu (nothing fancy yet)
 Add some sounds (added atmosphere)
 
-------------Done Marker-------------------------
+
 
 
 
 Death Animation?
-
+------------Done Marker-------------------------
 
 Art time. go nuts with making threats etc that work with the damage collider.
-Time.Deltatime bug?
+
 Implement the art programmin wise.
 
 Making things feel nice -
