@@ -64,9 +64,9 @@ Entry 10: Atmosphere!.
 No No NO! The voices. The walls. The floor. I hear them. I hear them!
 
 ------------------------------------------------------------------------------
-Entry -: .
+Entry -: BodyDamageWorking.
 
--
+Spears fall from the ceiling. the world whispers. And my soul is so weak..
 ------------------------------------------------------------------------------
 Entry -: .
 
