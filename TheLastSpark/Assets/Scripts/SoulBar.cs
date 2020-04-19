@@ -21,7 +21,7 @@ public class SoulBar : MonoBehaviour
     private bool SoulEmpty = false;
 
 
-    public float incomeDmg = 40.0f;
+    public float incomeDmg = 20.0f;
 
     // Start is called before the first frame update
 
@@ -40,7 +40,7 @@ public class SoulBar : MonoBehaviour
         }
         else
         {
-            IncreaseHealth(5 * incomeDmg * Time.deltaTime);
+            IncreaseHealth(8 * incomeDmg * Time.deltaTime);
         }
 
 
