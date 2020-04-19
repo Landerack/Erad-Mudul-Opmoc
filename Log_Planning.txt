@@ -14,7 +14,7 @@ Add some sounds (added atmosphere)
 
 
 Death Animation?
-------------Done Marker-------------------------
+
 
 Art time. go nuts with making threats etc that work with the damage collider.
 
@@ -25,7 +25,7 @@ Making things feel nice -
 Playtest.
 See if a jump is needed for gameplay
 
--------------------------Stage 3---------------------------------
+
 
 Create more scenery pretty stuff.
 
@@ -34,4 +34,7 @@ Make the animation for real - add a jump if needed.
 
 Art walhalla + record voice stuff
 
+------------Done Marker-------------------------
+
 Create a flame particle that reduces in intensity according to the soul HP
+(this one wont work, since I did most of it at this point with bloom effect *shrug*
