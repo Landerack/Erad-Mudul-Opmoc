@@ -8,7 +8,7 @@ public class HurtSound : MonoBehaviour {
 
     public AudioClip[] audioSources;
     public AudioClip deathsound;
-
+    public AudioClip healsound;
     // Use this for initialization
 
 
@@ -20,6 +20,12 @@ public class HurtSound : MonoBehaviour {
     public void DeathSound()
     {
         randomSound.clip = deathsound;
+        randomSound.Play();
+    }
+
+    public void HealSound()
+    {
+        randomSound.clip = healsound;
         randomSound.Play();
     }
 

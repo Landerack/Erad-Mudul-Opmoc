@@ -70,5 +70,24 @@ public class HealthBar : MonoBehaviour
         }
     }
 
+    public void IncreaseHealth(float amount)
+    {
+
+        float newHealth = health + amount;
+        hurtsounds.GetComponent<HurtSound>().HealSound();
+
+        if (newHealth > 100.0f)
+        {
+            newHealth = 100.0f;
+        }
+            health = newHealth;
+
+        if (healthBarImage != null)
+        {
+            healthBarImage.rectTransform.sizeDelta = new Vector2(health / maxHealth, healthBarImage.rectTransform.sizeDelta.y);
+        }
+
+    }
+
 
 }
