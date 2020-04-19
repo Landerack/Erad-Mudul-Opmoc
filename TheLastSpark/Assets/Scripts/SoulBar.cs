@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class SoulBar : MonoBehaviour
 {
     public float soulHealth = 100.0f;
     public float maxHealth = 100.0f;
     public AnimationCurve Playfull = new AnimationCurve();
-    public CharacterController2D controller; 
+    public CharacterController2D controller;
+    public Animator animator;
+    public GameObject deathManager;
+
 
     public Image animatedHealth;
     public Image healthBarImage = null;
     private float whiteFlashTimer = 0.01f;
+    private bool SoulEmpty = false;
+
 
     public float incomeDmg = 40.0f;
 
@@ -56,6 +62,11 @@ public class SoulBar : MonoBehaviour
         float newHealth = soulHealth - amount;
         if (newHealth < 0.0f) {
             newHealth = 0.0f;
+            // kill player
+            animator.SetBool("Dead", true);
+            SoulEmpty = true; //make sure the bar stops regenerating
+                //trigger the death timer code thing
+                deathManager.GetComponent<playerIsDead>().Dead();
         }
         soulHealth = newHealth;
         whiteFlashTimer = 0.0f;
@@ -67,17 +78,20 @@ public class SoulBar : MonoBehaviour
     }
     void IncreaseHealth(float amount)
     {
-        float newHealth = soulHealth + amount;
-        if (newHealth > 100.0f)
+        if (SoulEmpty == false)
         {
-            newHealth = 100.0f;
-        }
-        soulHealth = newHealth;
-        whiteFlashTimer = 0.0f;
+            float newHealth = soulHealth + amount;
+            if (newHealth > 100.0f)
+            {
+                newHealth = 100.0f;
+            }
+            soulHealth = newHealth;
+            whiteFlashTimer = 0.0f;
 
-        if (healthBarImage != null)
-        {
-            healthBarImage.rectTransform.sizeDelta = new Vector2(soulHealth / maxHealth, healthBarImage.rectTransform.sizeDelta.y);
+            if (healthBarImage != null)
+            {
+                healthBarImage.rectTransform.sizeDelta = new Vector2(soulHealth / maxHealth, healthBarImage.rectTransform.sizeDelta.y);
+            }
         }
     }
 
