@@ -47,11 +47,12 @@ public class HealthBar : MonoBehaviour
             float newHealth = health - amount;
             if (newHealth < 0.0f) {
                 newHealth = 0.0f;
+                hurtsounds.GetComponent<HurtSound>().DeathSound();
                 //death animation.
                 animator.SetBool("Dead", true);
                 //trigger level end code.
                     deathManager.GetComponent<PlayerIsDead>().Dead();
-                    hurtsounds.GetComponent<HurtSound>().DeathSound();
+
             }
             else if (newHealth >= 0.0f)
             {

@@ -12,6 +12,7 @@ public class SoulBar : MonoBehaviour
     public CharacterController2D controller;
     public Animator animator;
     public GameObject deathManager;
+    public AudioSource hurtsounds;
 
 
     public Image animatedHealth;
@@ -62,8 +63,9 @@ public class SoulBar : MonoBehaviour
             // kill player
             animator.SetBool("Dead", true);
             SoulEmpty = true; //make sure the bar stops regenerating
-                //trigger the death timer code thing
-                deathManager.GetComponent<PlayerIsDead>().Dead();
+                              //trigger the death timer code thing
+            hurtsounds.GetComponent<HurtSound>().DeathSound();
+            deathManager.GetComponent<PlayerIsDead>().Dead();
         }
         soulHealth = newHealth;
         whiteFlashTimer = 0.0f;
