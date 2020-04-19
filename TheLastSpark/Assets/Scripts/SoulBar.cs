@@ -23,10 +23,7 @@ public class SoulBar : MonoBehaviour
     public float incomeDmg = 40.0f;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -66,7 +63,7 @@ public class SoulBar : MonoBehaviour
             animator.SetBool("Dead", true);
             SoulEmpty = true; //make sure the bar stops regenerating
                 //trigger the death timer code thing
-                deathManager.GetComponent<playerIsDead>().Dead();
+                deathManager.GetComponent<PlayerIsDead>().Dead();
         }
         soulHealth = newHealth;
         whiteFlashTimer = 0.0f;

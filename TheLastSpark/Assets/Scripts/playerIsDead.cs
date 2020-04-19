@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerIsDead : MonoBehaviour
+public class PlayerIsDead : MonoBehaviour
 {
     bool demise = false;
     float deadtimer = 0f;

@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
     public float maxHealth = 100.0f;
     public AnimationCurve Playfull = new AnimationCurve();
     public Animator animator;
+    public AudioSource hurtsounds;
 
     public Image animatedHealth;
     public Image healthBarImage = null;
@@ -49,7 +50,12 @@ public class HealthBar : MonoBehaviour
                 //death animation.
                 animator.SetBool("Dead", true);
                 //trigger level end code.
-                    deathManager.GetComponent<playerIsDead>().Dead();
+                    deathManager.GetComponent<PlayerIsDead>().Dead();
+                    hurtsounds.GetComponent<HurtSound>().DeathSound();
+            }
+            else if (newHealth >= 0.0f)
+            {
+                hurtsounds.GetComponent<HurtSound>().RandomSoundness();
             }
             health = newHealth;
             whiteFlashTimer = 0.0f;
